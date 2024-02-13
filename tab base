@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css?family=Mr+Dafoe";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+body{-webkit-animation:fadein 12s;-moz-animation:fadein 5s;-ms-animation:fadein 5s;-o-animation:fadein 5s;animation:fadein 5s;-webkit-animation:fadein 3s;-moz-animation:fadein 3s;-ms-animation:fadein 3s;-o-animation:fadein 3s;animation:fadein 3s}
+@keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-moz-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-webkit-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-ms-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+@-o-keyframes fadein {
+from{opacity:0}
+to{opacity:1}
+}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background-color:transparent}
+::-webkit-scrollbar-thumb{background-color:#ff0096}
+::-webkit-scrollbar:horizontal{height:0}
+::-webkit-scrollbar-thumb:vertical:hover,::-webkit-scrollbar-thumb:horizontal:hover{background:#fff;width:0;height:0}
+.home{color:#fffc;line-height:150%;text-align:justify;font-family:century gothic;letter-spacing:.75px;word-spacing:0;font-size:10px;padding:5px;padding:3px;margin:5px}
+a.image-link:focus{outline:0}
+a{outline:none}
+*{cursor:Default!important}
+::selection{background:#faa9ec;color:#fff}
+body{text-decoration:none;color:#ccc}
+.home:hover #line{border-color:#ff41be}
+b{letter-spacing:1px;color:#a9ff1d}
+i,s{letter-spacing:0;font-weight:lighter;color:#f74aad}
+u{letter-spacing:0;text-decoration:none;border-bottom:1px dotted #a9ff1d;color:#a9ff1d}
+body a{color:#a9ff1d!important;text-transform:uppercase;font-family:calibri;text-decoration:none;font-weight:700}
+.home a:hover{background-color:#e445e4;color:#fff!important;text-decoration:none;cursor:link}
+.home h3{border:1px #f74aad double;max-width:250px;margin-left:auto;margin-right:auto;padding:10px;font:normal 9px trebuchet ms;text-transform:uppercase;text-align:center;color:#fff;transition:.3s}
+.home img{opacity:.5;opacity:.8;opacity:1}
+.home h5{background-color:rgba(255,255,255,0.1);margin-left:auto;margin-right:auto;padding:10px;font:normal 7px tahoma;text-transform:uppercase;text-align:center;color:#fff;width:250px;border-left:5px solid #9be91a;border-right:5px solid #9be91a;letter-spacing:2px;transition:.3s;text-shadow:0 0 5px #fff}
+.home:hover h5{background-color:rgba(191,163,213,0.05);border-color:#faa9ec;color:#fff}
+.home:hover .h6{color:#ffcaee;border-color:#ffcaee}
+h1{color:#fff;font:normal 28px "Mr Dafoe";line-height:0;margin-top:3px;letter-spacing:1px;height:12px;margin-bottom:0;text-align:Center;margin-bottom:5px;line-height:0;transition:.3s;animation-name:header;animation-duration:.5s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;text-shadow:0px 0px 5px #9be91a,0px 0px 5px #9be91a}
+@keyframes header {
+from{text-shadow:0px 0px 5px #fd6ab8,0px 0px 5px #fd6ab8;}
+55%{text-shadow:0 0 5px transparent;line-height:2px}
+to{text-shadow:0px 0px 5px #fd6ab8,0px 0px 5px #fd6ab8;}
+}
+.home:hover h1{text-shadow:2px 1px #faa9ec}
+h2{line-height:5px;font:normal 8px calibri;color:#fff;text-transform:uppercase;letter-spacing:7px;text-align:Center}
+.home h4{border-left:1px solid #fff;border-right:1px solid #fff;width:94px;height:30px;text-align:center;font:normal 10px trebuchet ms;text-transform:normal;line-height:30px;font-style:italic;color:#fff;text-align:center;background-color:#3a3a66;margin-left:27%}
+.home:hover h2{color:#fff}
+.home:hover h3{color:#fff;border-color:#fd16d7}
+.home:hover h4{background-color:#d87fe8;color:#fff}
+.badge{padding:10px;background-color:rgba(255,255,255,0.1);border:1px solid #a9ff1d;text-align:center;display:inline-block;margin:5px}
+.badge:hover{border-color:#d078f4}
